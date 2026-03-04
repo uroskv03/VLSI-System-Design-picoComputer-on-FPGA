@@ -9,23 +9,23 @@ This project implements the picoComputer architecture on an FPGA platform. The s
 
 ### CPU
 
-Instruction Set: Supports a custom ISA with instructions of 1 or 2 words in length.
+Supports a custom ISA (Instruction Set Architecture) with 1-word and 2-word instructions.
 
-Addressing Modes: Features both direct (value 0) and indirect (value 1) addressing.
+Features both direct (value 0) and indirect (value 1) addressing.
 
-Registers: Includes a 6-bit Program Counter (PC), 6-bit Stack Pointer (SP), 32-bit Instruction Register (IR), and a 16-bit Accumulator (A).
+Includes a 6-bit Program Counter (PC), 6-bit Stack Pointer (SP), 32-bit Instruction Register (IR), and a 16-bit Accumulator (A).
 
 
 ### Memory Hierarchy
 
-A 64-word memory space divided into a General Purpose Register (GPR) zone and a flexible zone for program code, data, and the stack
+A 64-word memory space divided into a General Purpose Register (GPR) zone and a flexible zone for program code, data, and the stack.
 
 
 ### BCD & SSD
 
-A Binary Coded Decimal (BCD) converter for two-digit numbers and a Seven Segment Display (SSD) module for real-time monitoring
+A Binary Coded Decimal (BCD) converter for two-digit numbers and a Seven Segment Display (SSD) module for real-time monitoring.
 
-### Helper Modules: 
+### Helper Modules
 
 Includes a Debouncer for input stabilization, a Rising Edge Detector (RED) for signal edge detection, and a Clock Divider to adjust the operating frequency.
 
@@ -41,14 +41,12 @@ An RGB controller managing horizontal and vertical synchronization (hsync, vsync
 
 ### PS/2 Keyboard: 
 
-A controller for IBM PS/2 protocol communication, including a scan-code translator for numerical input.
+A controller for PS/2 protocol communication, including a scan-code translator for numerical input.
 
 
 ### Verification
 
-SystemVerilog environment was built based on the Universal Verification Methodology standard with code coverage .
-
-
+A SystemVerilog verification environment was developed using the Universal Verification Methodology (UVM), including code coverage.
 
 
 
@@ -56,6 +54,6 @@ SystemVerilog environment was built based on the Universal Verification Methodol
 
 Languages: Verilog, SystemVerilog (UVM)
 
-Tools: Intel Quartus Prime, ModelSim / QuestaSim
+Tools: Quartus, ModelSim / QuestaSim
 
-Target Hardware: Intel/Altera Cyclone III and Cyclone V FPGA development systems
+Target Hardware: Cyclone III and Cyclone V FPGA development systems
