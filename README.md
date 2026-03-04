@@ -7,5 +7,7 @@ This project implements the picoComputer architecture on an FPGA platform. The s
 ## Technologies & Hardware
 
 Languages: Verilog, SystemVerilog (UVM)
+
 Tools: Intel Quartus Prime, ModelSim / QuestaSim
+
 Target Hardware: Intel/Altera Cyclone III and Cyclone V FPGA development systems
