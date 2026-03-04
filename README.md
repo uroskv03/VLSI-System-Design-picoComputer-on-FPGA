@@ -43,7 +43,7 @@ An RGB controller managing horizontal and vertical synchronization (hsync, vsync
 
 A controller for IBM PS/2 protocol communication, including a scan-code translator for numerical input.
 
-SystemVerilog environment was built based on the Universal Verification Methodology standard.
+SystemVerilog environment was built based on the Universal Verification Methodology standard with code coverage .
 
 
 
