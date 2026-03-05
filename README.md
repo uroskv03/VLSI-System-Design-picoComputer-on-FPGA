@@ -29,17 +29,17 @@ A Binary Coded Decimal (BCD) converter for two-digit numbers and a Seven Segment
 
 Includes a Debouncer for input stabilization, a Rising Edge Detector (RED) for signal edge detection, and a Clock Divider to adjust the operating frequency.
 
-### Parameterized ALU: 
+### Parameterized ALU
 
 Arithmetic Operations: ADD, SUB, MUL, and DIV
 
 Logical Operations: NOT, XOR, OR, and AND
 
-### VGA Interface: 
+### VGA Interface
 
 An RGB controller managing horizontal and vertical synchronization (hsync, vsync) to display dual-color data on a monitor.
 
-### PS/2 Keyboard: 
+### PS/2 Keyboard
 
 A controller for PS/2 protocol communication, including a scan-code translator for numerical input.
 
